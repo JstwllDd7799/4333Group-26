@@ -51,6 +51,7 @@
                 </Grid.RowDefinitions>
 
                 <!-- Места для добавления элементов управления -->
+                <Button Content="Information" Click="Button_Click"/>
                 <!---->
 
             </Grid>
