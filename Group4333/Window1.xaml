@@ -5,34 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Group4333"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
-    <Grid Margin="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <TextBlock Text="Людоговская София 4333" FontSize="16" FontWeight="Bold" 
-                   HorizontalAlignment="Center" 
-                   Grid.Row="0" Margin="0,0,0,20"/>
-
-        <StackPanel Grid.Row="1" Margin="0,0,0,10">
-            <Button x:Name="btnImport" 
-                    Content="Импорт данных" 
-                    Height="40" 
-                    FontSize="14"
-                    Click="BtnImport_Click"
-                    Margin="0,0,0,10"/>
-
-            <Button x:Name="btnExport" 
-                    Content="Экспорт в Excel" 
-                    Height="40" 
-                    FontSize="14"
-                    Click="BtnExport_Click"/>
-        </StackPanel>
-
-        <TextBlock x:Name="txtStatus" Grid.Row="2" Text="Готов к работе"  TextWrapping="Wrap" Foreground="Gray" Margin="0,10,0,0" HorizontalAlignment="Center"/>
+        Title="Window1" Height="100" Width="800">
+    <Grid>
+        <TextBlock Margin="316,0,0,0" TextWrapping="Wrap" Text="Людоговская София 4333" VerticalAlignment="Center"/>
     </Grid>
 </Window>
