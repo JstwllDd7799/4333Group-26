@@ -20,7 +20,7 @@
 
         <StackPanel Grid.Row="1" Margin="0,0,0,10">
             <Button x:Name="btnImport" 
-                    Content="Импорт данных" 
+                    Content="Импорт данных (Excel)" 
                     Height="40" 
                     FontSize="14"
                     Click="BtnImport_Click"
@@ -30,9 +30,25 @@
                     Content="Экспорт в Excel" 
                     Height="40" 
                     FontSize="14"
-                    Click="BtnExport_Click"/>
+                    Click="BtnExport_Click"
+                    Margin="0,0,0,10"/>
+
+            <Button x:Name="btnImportJson" 
+                    Content="Импорт JSON данных" 
+                    Height="40" 
+                    FontSize="14"
+                    Click="BtnImportJson_Click"
+                    Margin="0,0,0,10"/>
+
+            <Button x:Name="btnExportWord" 
+                    Content="Экспорт в Word" 
+                    Height="40" 
+                    FontSize="14"
+                    Click="BtnExportWord_Click"
+                    Margin="0,0,0,10"/>
         </StackPanel>
 
-        <TextBlock x:Name="txtStatus" Grid.Row="2" Text="Готов к работе"  TextWrapping="Wrap" Foreground="Gray" Margin="0,10,0,0" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="txtStatus" Grid.Row="2" Text="Готов к работе" TextWrapping="Wrap" 
+                   Foreground="Gray" Margin="0,10,0,0" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
